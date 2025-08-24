@@ -8,6 +8,9 @@
 		"fmt": "biome check --write --unsafe .",
 		"lint": "biome check ."
 	},
+	"dependencies": {
+		"@swc/core": "1.13.4"
+	},
 	"devDependencies": {
 		"@biomejs/biome": "2.2.2",
 		"@types/bun": "1.2.20",
