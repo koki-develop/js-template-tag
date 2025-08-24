@@ -19,6 +19,7 @@
 		"sourceMap": true,
 		"declaration": true,
 		"declarationMap": true,
+		"removeComments": true,
 
 		// Stricter Typechecking Options
 		"noUncheckedIndexedAccess": true,
