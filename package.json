@@ -10,7 +10,8 @@
 		"prepare": "husky",
 		"prepublishOnly": "npm run build",
 		"fmt": "biome check --write --unsafe .",
-		"lint": "biome check ."
+		"lint": "biome check .",
+		"test": "vitest"
 	},
 	"dependencies": {
 		"@swc/core": "1.13.4"
