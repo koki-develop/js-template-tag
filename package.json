@@ -2,6 +2,14 @@
 	"name": "js-template-tag",
 	"module": "lib/index.ts",
 	"type": "module",
+	"version": "0.0.1",
+	"author": "koki-develop <kou.pg.0131@gmail.com>",
+	"homepage": "https://github.com/koki-develop/js-template-tag",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/koki-develop/js-template-tag.git"
+	},
+	"license": "MIT",
 	"files": [
 		"dist"
 	],
