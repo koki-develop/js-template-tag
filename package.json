@@ -1,9 +1,14 @@
 {
 	"name": "js-template-tag",
-	"module": "index.ts",
+	"module": "lib/index.ts",
 	"type": "module",
+	"files": [
+		"dist"
+	],
 	"scripts": {
+		"build": "tsc",
 		"prepare": "husky",
+		"prepublishOnly": "npm run build",
 		"fmt": "biome check --write --unsafe .",
 		"lint": "biome check ."
 	},
