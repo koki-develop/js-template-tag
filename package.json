@@ -13,6 +13,9 @@
 	"files": [
 		"dist"
 	],
+	"exports": {
+		".": "./dist/index.js"
+	},
 	"scripts": {
 		"build": "tsc",
 		"prepare": "husky",
