@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3](https://github.com/koki-develop/js-template-tag/compare/v0.0.2...v0.0.3) (2025-08-24)
+
+
+### Features
+
+* Release v0.0.3 ([8d392f0](https://github.com/koki-develop/js-template-tag/commit/8d392f0e1b89de11fd3ac7d964a82b0b02fd6a60))
+
 ## 0.0.2 (2025-08-24)
 
 
