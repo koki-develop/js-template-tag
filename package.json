@@ -1,15 +1,15 @@
 {
-  "name": "js-template-tag",
-  "module": "index.ts",
-  "type": "module",
-  "private": true,
-  "scripts": {
-    "fmt": "biome check --write --unsafe .",
-    "lint": "biome check ."
-  },
-  "devDependencies": {
-    "@biomejs/biome": "2.2.2",
-    "@types/bun": "1.2.20",
-    "typescript": "5.9.2"
-  }
+	"name": "js-template-tag",
+	"module": "index.ts",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"fmt": "biome check --write --unsafe .",
+		"lint": "biome check ."
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.2.2",
+		"@types/bun": "1.2.20",
+		"typescript": "5.9.2"
+	}
 }
