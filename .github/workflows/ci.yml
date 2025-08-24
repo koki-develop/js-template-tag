@@ -15,7 +15,6 @@ permissions: {}
 jobs:
   test:
     name: Test
-    needs: release-please
     timeout-minutes: 10
     runs-on: ubuntu-latest
     permissions:
@@ -29,7 +28,6 @@ jobs:
 
   build:
     name: Build
-    needs: release-please
     timeout-minutes: 10
     runs-on: ubuntu-latest
     permissions:
@@ -43,7 +41,6 @@ jobs:
 
   lint:
     name: Lint
-    needs: release-please
     timeout-minutes: 10
     runs-on: ubuntu-latest
     permissions:
