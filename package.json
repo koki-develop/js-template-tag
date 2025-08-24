@@ -19,7 +19,7 @@
 	"scripts": {
 		"build": "tsc",
 		"prepare": "husky",
-		"prepublishOnly": "npm run build",
+		"prepublishOnly": "bun run build",
 		"fmt": "biome check --write --unsafe .",
 		"lint": "biome check .",
 		"test": "vitest"

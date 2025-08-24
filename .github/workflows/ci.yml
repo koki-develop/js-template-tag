@@ -24,7 +24,7 @@ jobs:
         with:
           persist-credentials: false
       - uses: ./.github/actions/setup
-      - run: npm run test
+      - run: bun run test
 
   build:
     name: Build
@@ -37,7 +37,7 @@ jobs:
         with:
           persist-credentials: false
       - uses: ./.github/actions/setup
-      - run: npm run build
+      - run: bun run build
 
   lint:
     name: Lint
@@ -50,4 +50,4 @@ jobs:
         with:
           persist-credentials: false
       - uses: ./.github/actions/setup
-      - run: npm run lint
+      - run: bun run lint
