@@ -60,7 +60,7 @@ console.log(value);
 import { ts } from "js-template-tag";
 
 ts`
-  function sayHello(name: string) {
+  function sayHello(name: string): void {
     console.log(\`Hello, \${name}!\`);
   }
 
