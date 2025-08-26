@@ -47,7 +47,7 @@ js`
 import { js } from "js-template-tag";
 
 const value = js`
-  (() => "Hello, JavaScript")();
+  (() => "Hello, JavaScript!")();
 `;
 
 console.log(value);
